@@ -1,0 +1,124 @@
+.body{
+    margin: 0;
+    background: url(./Assets/images/photo-1542296332-2e4473faf563.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    overflow: hidden;
+    min-width: 800px;
+    max-width: 1500px;
+
+}
+.container{
+    /* width: 100px; */
+    /* min-height: 600px; */
+    /* margin: auto; */
+    margin-left: 100px;
+    text-align: justify;
+}
+.head1{
+    
+margin-top: 200px;
+
+
+    color: rgba(11, 167, 234, 0.914);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.para{
+  
+    
+    color: rgb(235, 245, 246);
+    font-family: cursive;
+    font-weight: 900;
+
+}
+
+.button{
+    margin-left:180px;
+    margin-top: 70px;
+
+
+}
+.btn1{
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    color:  rgba(17, 96, 130, 0.914);
+text-align: center;
+background-color: wheat;
+text-transform: capitalize;
+
+  
+}
+.btn2{
+    background-color: wheat;
+    padding: 15px;
+    margin: 10px;
+    color: rgba(17, 96, 130, 0.914);
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    overflow: auto;
+}
+
+.child1,
+.child2,
+.child3 {
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.child1 img,
+.child2 img,
+.child3 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.h1 {
+    margin: 25px 0;
+    font-size: 30px;    
+}
+
+.p1,
+.p2,
+.p3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding:  15px;
+    cursor: pointer;
+    color:teal;
+    background-color: black;
+}
+.child1:hover,
+.child2:hover,
+.child3:hover {
+    box-shadow: 40px 10px 25px rgba(0, 0, 0, 0.30);
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.body2{
+    background-color:cadetblue;
+      min-width: 800px;
+    max-width: 1500px
+
+}
